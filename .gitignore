@@ -4,6 +4,7 @@
 # XCode (and ancestors) per-user config (very noisy, and not relevant)
 *.pbxuser
 *.xcworkspace
+xcuserdata/
 
 # build products
 build/
