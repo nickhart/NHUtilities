@@ -66,9 +66,9 @@
         // XXXNH: there may be a more efficient way to do this, but I don't see a CF API to OR the two bitsets.
         CFIndex startBit = CFBitVectorGetFirstIndexOfBit(bitSet.bitsRef, CFRangeMake(0, _numBits), 1);
         CFIndex endBit = CFBitVectorGetLastIndexOfBit(bitSet.bitsRef, CFRangeMake(startBit, _numBits), 1);
-        for (CFIndex i = startBit; i <= endBit; ++i) {
-            if (CFBitVectorGetBitAtIndex(bitSet.bitsRef, i) == (CFBit)1) {
-                CFBitVectorSetBitAtIndex(_bitsRef, i, (CFBit)1);
+        for (CFIndex index = startBit; index <= endBit; ++index) {
+            if (CFBitVectorGetBitAtIndex(bitSet.bitsRef, index) == (CFBit)1) {
+                CFBitVectorSetBitAtIndex(_bitsRef, index, (CFBit)1);
             }
         }
     }
@@ -82,6 +82,19 @@
 - (void)clearAllBits {
     NSParameterAssert(_bitsRef && _numBits);
     CFBitVectorSetBits(_bitsRef, CFRangeMake(0, _numBits), 0);
+}
+
+- (NSArray *)arrayFromBits {
+    NSParameterAssert(_bitsRef && _numBits);
+    NSMutableArray * result = [NSMutableArray arrayWithCapacity:[self countBits]];
+    CFIndex startBit = CFBitVectorGetFirstIndexOfBit(_bitsRef, CFRangeMake(0, _numBits), 1);
+    CFIndex endBit = CFBitVectorGetLastIndexOfBit(_bitsRef, CFRangeMake(startBit, _numBits), 1);
+    for (CFIndex index = startBit; index <= endBit; ++index) {
+        if (CFBitVectorGetBitAtIndex(_bitsRef, index) == (CFBit)1) {
+            [result addObject:[NSNumber numberWithUnsignedInteger:index]];
+        }
+    }
+    return result;
 }
 
 @end

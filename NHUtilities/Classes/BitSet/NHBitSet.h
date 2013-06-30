@@ -19,5 +19,6 @@
 - (void)setBits: (NHBitSet *) bitSet;
 - (NSUInteger)countBits;
 - (void)clearAllBits;
+- (NSArray *)arrayFromBits;
 
 @end
