@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		540B7C051795009E001CC497 /* NSArray+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 540B7C041795009E001CC497 /* NSArray+NHUtilities.m */; };
+		540B7C061795009E001CC497 /* NSArray+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 540B7C041795009E001CC497 /* NSArray+NHUtilities.m */; };
+		540B7C0B17951324001CC497 /* NSArrayNHUtilitiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 540B7C0A17951324001CC497 /* NSArrayNHUtilitiesTest.m */; };
 		548418E0177F611B009BA591 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 548418DF177F611B009BA591 /* Foundation.framework */; };
 		548418E5177F611B009BA591 /* NHUtilities.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 548418E4177F611B009BA591 /* NHUtilities.h */; };
 		548418E7177F611B009BA591 /* NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 548418E6177F611B009BA591 /* NHUtilities.m */; };
@@ -16,8 +19,6 @@
 		548418F4177F611B009BA591 /* libNHUtilities.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 548418DC177F611B009BA591 /* libNHUtilities.a */; };
 		548418FA177F611B009BA591 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 548418F8177F611B009BA591 /* InfoPlist.strings */; };
 		548418FC177F611B009BA591 /* NHUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 548418FB177F611B009BA591 /* NHUtilitiesTests.m */; };
-		54841909177F618E009BA591 /* NHRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = 54841908177F618E009BA591 /* NHRandom.m */; };
-		5484190D177F6553009BA591 /* NHRandomTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 5484190C177F6553009BA591 /* NHRandomTest.m */; };
 		54EAB3C5177F9D2F00F33672 /* NHBitSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EAB3C4177F9D2F00F33672 /* NHBitSet.m */; };
 		54EAB3C8177FA08500F33672 /* NHBitSetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EAB3C7177FA08500F33672 /* NHBitSetTest.m */; };
 /* End PBXBuildFile section */
@@ -46,6 +47,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		540B7C031795009E001CC497 /* NSArray+NHUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NHUtilities.h"; sourceTree = "<group>"; };
+		540B7C041795009E001CC497 /* NSArray+NHUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NHUtilities.m"; sourceTree = "<group>"; };
+		540B7C0A17951324001CC497 /* NSArrayNHUtilitiesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayNHUtilitiesTest.m; sourceTree = "<group>"; };
 		548418DC177F611B009BA591 /* libNHUtilities.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libNHUtilities.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		548418DF177F611B009BA591 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		548418E3177F611B009BA591 /* NHUtilities-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NHUtilities-Prefix.pch"; sourceTree = "<group>"; };
@@ -57,9 +61,6 @@
 		548418F7177F611B009BA591 /* NHUtilitiesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NHUtilitiesTests-Info.plist"; sourceTree = "<group>"; };
 		548418F9177F611B009BA591 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		548418FB177F611B009BA591 /* NHUtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHUtilitiesTests.m; sourceTree = "<group>"; };
-		54841907177F618E009BA591 /* NHRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHRandom.h; sourceTree = "<group>"; };
-		54841908177F618E009BA591 /* NHRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHRandom.m; sourceTree = "<group>"; };
-		5484190C177F6553009BA591 /* NHRandomTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHRandomTest.m; sourceTree = "<group>"; };
 		54EAB3C3177F9D2F00F33672 /* NHBitSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHBitSet.h; sourceTree = "<group>"; };
 		54EAB3C4177F9D2F00F33672 /* NHBitSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBitSet.m; sourceTree = "<group>"; };
 		54EAB3C7177FA08500F33672 /* NHBitSetTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBitSetTest.m; sourceTree = "<group>"; };
@@ -88,6 +89,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		540B7C001795005C001CC497 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				540B7C0217950081001CC497 /* CoreFoundation */,
+				540B7C011795005C001CC497 /* UIKit */,
+			);
+			name = Categories;
+			path = Classes/Categories;
+			sourceTree = SOURCE_ROOT;
+		};
+		540B7C011795005C001CC497 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		540B7C0217950081001CC497 /* CoreFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				540B7C031795009E001CC497 /* NSArray+NHUtilities.h */,
+				540B7C041795009E001CC497 /* NSArray+NHUtilities.m */,
+			);
+			path = CoreFoundation;
+			sourceTree = "<group>";
+		};
+		540B7C07179512EB001CC497 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				540B7C08179512EB001CC497 /* CoreFoundation */,
+				540B7C09179512EB001CC497 /* UIKit */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		540B7C08179512EB001CC497 /* CoreFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				540B7C0A17951324001CC497 /* NSArrayNHUtilitiesTest.m */,
+			);
+			path = CoreFoundation;
+			sourceTree = "<group>";
+		};
+		540B7C09179512EB001CC497 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
 		548418D3177F611B009BA591 = {
 			isa = PBXGroup;
 			children = (
@@ -158,36 +209,19 @@
 		54841905177F6172009BA591 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				540B7C001795005C001CC497 /* Categories */,
 				54EAB3C2177F9D0300F33672 /* BitSet */,
-				54841906177F6172009BA591 /* Random */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		54841906177F6172009BA591 /* Random */ = {
-			isa = PBXGroup;
-			children = (
-				54841907177F618E009BA591 /* NHRandom.h */,
-				54841908177F618E009BA591 /* NHRandom.m */,
-			);
-			path = Random;
 			sourceTree = "<group>";
 		};
 		5484190A177F6542009BA591 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				540B7C07179512EB001CC497 /* Categories */,
 				54EAB3C6177FA07400F33672 /* BitSet */,
-				5484190B177F6542009BA591 /* Random */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		5484190B177F6542009BA591 /* Random */ = {
-			isa = PBXGroup;
-			children = (
-				5484190C177F6553009BA591 /* NHRandomTest.m */,
-			);
-			path = Random;
 			sourceTree = "<group>";
 		};
 		54EAB3C2177F9D0300F33672 /* BitSet */ = {
@@ -288,7 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				54841909177F618E009BA591 /* NHRandom.m in Sources */,
+				540B7C051795009E001CC497 /* NSArray+NHUtilities.m in Sources */,
 				54EAB3C5177F9D2F00F33672 /* NHBitSet.m in Sources */,
 				548418E7177F611B009BA591 /* NHUtilities.m in Sources */,
 			);
@@ -299,7 +333,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				54EAB3C8177FA08500F33672 /* NHBitSetTest.m in Sources */,
-				5484190D177F6553009BA591 /* NHRandomTest.m in Sources */,
+				540B7C0B17951324001CC497 /* NSArrayNHUtilitiesTest.m in Sources */,
+				540B7C061795009E001CC497 /* NSArray+NHUtilities.m in Sources */,
 				548418FC177F611B009BA591 /* NHUtilitiesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
