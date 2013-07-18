@@ -39,6 +39,8 @@
 		54DFFFB51797956D0068CF38 /* NSFetchedResultsController+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFB31797956D0068CF38 /* NSFetchedResultsController+NHUtilities.m */; };
 		54DFFFB7179795860068CF38 /* NSFetchedResultsControllerNHUtilitiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFB6179795860068CF38 /* NSFetchedResultsControllerNHUtilitiesTest.m */; };
 		54DFFFBA17979DF70068CF38 /* testModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFB817979DF70068CF38 /* testModel.xcdatamodeld */; };
+		54DFFFBD1797A0340068CF38 /* NHJSONImportController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFBC1797A0340068CF38 /* NHJSONImportController.m */; };
+		54DFFFBE1797A0340068CF38 /* NHJSONImportController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFBC1797A0340068CF38 /* NHJSONImportController.m */; };
 		54EAB3C5177F9D2F00F33672 /* NHBitSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EAB3C4177F9D2F00F33672 /* NHBitSet.m */; };
 		54EAB3C8177FA08500F33672 /* NHBitSetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EAB3C7177FA08500F33672 /* NHBitSetTest.m */; };
 /* End PBXBuildFile section */
@@ -101,6 +103,9 @@
 		54DFFFB31797956D0068CF38 /* NSFetchedResultsController+NHUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFetchedResultsController+NHUtilities.m"; sourceTree = "<group>"; };
 		54DFFFB6179795860068CF38 /* NSFetchedResultsControllerNHUtilitiesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFetchedResultsControllerNHUtilitiesTest.m; sourceTree = "<group>"; };
 		54DFFFB917979DF70068CF38 /* testModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = testModel.xcdatamodel; sourceTree = "<group>"; };
+		54DFFFBB1797A0340068CF38 /* NHJSONImportController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHJSONImportController.h; sourceTree = "<group>"; };
+		54DFFFBC1797A0340068CF38 /* NHJSONImportController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHJSONImportController.m; sourceTree = "<group>"; };
+		54DFFFC01797A07B0068CF38 /* NHCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCommon.h; sourceTree = "<group>"; };
 		54EAB3C3177F9D2F00F33672 /* NHBitSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHBitSet.h; sourceTree = "<group>"; };
 		54EAB3C4177F9D2F00F33672 /* NHBitSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBitSet.m; sourceTree = "<group>"; };
 		54EAB3C7177FA08500F33672 /* NHBitSetTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBitSetTest.m; sourceTree = "<group>"; };
@@ -226,6 +231,7 @@
 		54841905177F6172009BA591 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				54DFFFBF1797A0660068CF38 /* Common */,
 				54DFFFA11797948E0068CF38 /* CoreData */,
 				54DFFF7F179791A90068CF38 /* Categories */,
 				54EAB3C2177F9D0300F33672 /* BitSet */,
@@ -289,6 +295,8 @@
 		54DFFFA11797948E0068CF38 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				54DFFFBB1797A0340068CF38 /* NHJSONImportController.h */,
+				54DFFFBC1797A0340068CF38 /* NHJSONImportController.m */,
 				54DFFFA2179794AA0068CF38 /* NHCoreDataController.h */,
 				54DFFFA3179794AA0068CF38 /* NHCoreDataController.m */,
 			);
@@ -314,6 +322,14 @@
 				54DFFFB6179795860068CF38 /* NSFetchedResultsControllerNHUtilitiesTest.m */,
 			);
 			path = CoreData;
+			sourceTree = "<group>";
+		};
+		54DFFFBF1797A0660068CF38 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				54DFFFC01797A07B0068CF38 /* NHCommon.h */,
+			);
+			path = Common;
 			sourceTree = "<group>";
 		};
 		54EAB3C2177F9D0300F33672 /* BitSet */ = {
@@ -414,6 +430,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54DFFFBD1797A0340068CF38 /* NHJSONImportController.m in Sources */,
 				54DFFF9B179794370068CF38 /* NSManagedObject+NHUtilities.m in Sources */,
 				54DFFFB41797956D0068CF38 /* NSFetchedResultsController+NHUtilities.m in Sources */,
 				54DFFF97179794070068CF38 /* NSManagedObjectContext+NHUtilities.m in Sources */,
@@ -436,6 +453,7 @@
 				54DFFFB11797954B0068CF38 /* NHCoreDataControllerTest.m in Sources */,
 				54DFFFAF179795380068CF38 /* NSPersistentStoreCoordinatorNHUtilitiesTest.m in Sources */,
 				54DFFFB51797956D0068CF38 /* NSFetchedResultsController+NHUtilities.m in Sources */,
+				54DFFFBE1797A0340068CF38 /* NHJSONImportController.m in Sources */,
 				54DFFFAD179795230068CF38 /* NSManagedObjectContextNHUtilitiesTest.m in Sources */,
 				54DFFFBA17979DF70068CF38 /* testModel.xcdatamodeld in Sources */,
 				54DFFFA9179794F30068CF38 /* NSFestchRequestNHUtilitiesTest.m in Sources */,

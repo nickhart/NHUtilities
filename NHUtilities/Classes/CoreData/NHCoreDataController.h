@@ -16,7 +16,13 @@
 
 @interface NHCoreDataController : NSObject
 
+@property (nonatomic, readonly) NSManagedObjectContext * managedObjectContext;
+
 + (id)coreDataControllerWithDatabaseName: (NSString *) databaseName completion: (void(^)(NSError *)) completion useInMemoryStore: (BOOL) useInMemoryStore;
 - (void)openDatabaseName: (NSString *) databaseName completion: (void(^)(NSError *)) completion;
+
+- (void)saveContext;
+- (id)lookupEntity: (NSString *) entityName uniqueAttribute: (NSString *) uniqueAttribute uniqueValue: (id) uniqueValue;
+- (NSFetchedResultsController *)resultsControllerForEntityName: (NSString *) entityName sortKey: (NSString *) sortKey ascending: (BOOL) ascending sectionNameKeyPath: (NSString *) sectionNameKeyPath cacheName: (NSString *) cacheName predicate: (NSPredicate *) predicate;
 
 @end
