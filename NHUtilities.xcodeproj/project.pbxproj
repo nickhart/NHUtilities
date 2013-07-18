@@ -19,6 +19,25 @@
 		548418FC177F611B009BA591 /* NHUtilitiesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 548418FB177F611B009BA591 /* NHUtilitiesTests.m */; };
 		54DFFF84179791A90068CF38 /* NSArray+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFF82179791A90068CF38 /* NSArray+NHUtilities.m */; };
 		54DFFF85179791A90068CF38 /* NSArray+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFF82179791A90068CF38 /* NSArray+NHUtilities.m */; };
+		54DFFF90179793CC0068CF38 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54DFFF8F179793CC0068CF38 /* CoreData.framework */; };
+		54DFFF93179793ED0068CF38 /* NSFetchRequest+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFF92179793ED0068CF38 /* NSFetchRequest+NHUtilities.m */; };
+		54DFFF94179793ED0068CF38 /* NSFetchRequest+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFF92179793ED0068CF38 /* NSFetchRequest+NHUtilities.m */; };
+		54DFFF97179794070068CF38 /* NSManagedObjectContext+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFF96179794070068CF38 /* NSManagedObjectContext+NHUtilities.m */; };
+		54DFFF98179794070068CF38 /* NSManagedObjectContext+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFF96179794070068CF38 /* NSManagedObjectContext+NHUtilities.m */; };
+		54DFFF9B179794370068CF38 /* NSManagedObject+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFF9A179794370068CF38 /* NSManagedObject+NHUtilities.m */; };
+		54DFFF9C179794370068CF38 /* NSManagedObject+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFF9A179794370068CF38 /* NSManagedObject+NHUtilities.m */; };
+		54DFFF9F179794620068CF38 /* NSPersistentStoreCoordinator+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFF9E179794620068CF38 /* NSPersistentStoreCoordinator+NHUtilities.m */; };
+		54DFFFA0179794620068CF38 /* NSPersistentStoreCoordinator+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFF9E179794620068CF38 /* NSPersistentStoreCoordinator+NHUtilities.m */; };
+		54DFFFA4179794AA0068CF38 /* NHCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFA3179794AA0068CF38 /* NHCoreDataController.m */; };
+		54DFFFA5179794AA0068CF38 /* NHCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFA3179794AA0068CF38 /* NHCoreDataController.m */; };
+		54DFFFA9179794F30068CF38 /* NSFestchRequestNHUtilitiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFA8179794F30068CF38 /* NSFestchRequestNHUtilitiesTest.m */; };
+		54DFFFAB179795080068CF38 /* NSManagedObjectNHUtilitiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFAA179795080068CF38 /* NSManagedObjectNHUtilitiesTest.m */; };
+		54DFFFAD179795230068CF38 /* NSManagedObjectContextNHUtilitiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFAC179795230068CF38 /* NSManagedObjectContextNHUtilitiesTest.m */; };
+		54DFFFAF179795380068CF38 /* NSPersistentStoreCoordinatorNHUtilitiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFAE179795380068CF38 /* NSPersistentStoreCoordinatorNHUtilitiesTest.m */; };
+		54DFFFB11797954B0068CF38 /* NHCoreDataControllerTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFB01797954B0068CF38 /* NHCoreDataControllerTest.m */; };
+		54DFFFB41797956D0068CF38 /* NSFetchedResultsController+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFB31797956D0068CF38 /* NSFetchedResultsController+NHUtilities.m */; };
+		54DFFFB51797956D0068CF38 /* NSFetchedResultsController+NHUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFB31797956D0068CF38 /* NSFetchedResultsController+NHUtilities.m */; };
+		54DFFFB7179795860068CF38 /* NSFetchedResultsControllerNHUtilitiesTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54DFFFB6179795860068CF38 /* NSFetchedResultsControllerNHUtilitiesTest.m */; };
 		54EAB3C5177F9D2F00F33672 /* NHBitSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EAB3C4177F9D2F00F33672 /* NHBitSet.m */; };
 		54EAB3C8177FA08500F33672 /* NHBitSetTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 54EAB3C7177FA08500F33672 /* NHBitSetTest.m */; };
 /* End PBXBuildFile section */
@@ -61,6 +80,25 @@
 		548418FB177F611B009BA591 /* NHUtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHUtilitiesTests.m; sourceTree = "<group>"; };
 		54DFFF81179791A90068CF38 /* NSArray+NHUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NHUtilities.h"; sourceTree = "<group>"; };
 		54DFFF82179791A90068CF38 /* NSArray+NHUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NHUtilities.m"; sourceTree = "<group>"; };
+		54DFFF8F179793CC0068CF38 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		54DFFF91179793ED0068CF38 /* NSFetchRequest+NHUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFetchRequest+NHUtilities.h"; sourceTree = "<group>"; };
+		54DFFF92179793ED0068CF38 /* NSFetchRequest+NHUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFetchRequest+NHUtilities.m"; sourceTree = "<group>"; };
+		54DFFF95179794070068CF38 /* NSManagedObjectContext+NHUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObjectContext+NHUtilities.h"; sourceTree = "<group>"; };
+		54DFFF96179794070068CF38 /* NSManagedObjectContext+NHUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObjectContext+NHUtilities.m"; sourceTree = "<group>"; };
+		54DFFF99179794370068CF38 /* NSManagedObject+NHUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSManagedObject+NHUtilities.h"; sourceTree = "<group>"; };
+		54DFFF9A179794370068CF38 /* NSManagedObject+NHUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSManagedObject+NHUtilities.m"; sourceTree = "<group>"; };
+		54DFFF9D179794620068CF38 /* NSPersistentStoreCoordinator+NHUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSPersistentStoreCoordinator+NHUtilities.h"; sourceTree = "<group>"; };
+		54DFFF9E179794620068CF38 /* NSPersistentStoreCoordinator+NHUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSPersistentStoreCoordinator+NHUtilities.m"; sourceTree = "<group>"; };
+		54DFFFA2179794AA0068CF38 /* NHCoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCoreDataController.h; sourceTree = "<group>"; };
+		54DFFFA3179794AA0068CF38 /* NHCoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCoreDataController.m; sourceTree = "<group>"; };
+		54DFFFA8179794F30068CF38 /* NSFestchRequestNHUtilitiesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFestchRequestNHUtilitiesTest.m; sourceTree = "<group>"; };
+		54DFFFAA179795080068CF38 /* NSManagedObjectNHUtilitiesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSManagedObjectNHUtilitiesTest.m; sourceTree = "<group>"; };
+		54DFFFAC179795230068CF38 /* NSManagedObjectContextNHUtilitiesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSManagedObjectContextNHUtilitiesTest.m; sourceTree = "<group>"; };
+		54DFFFAE179795380068CF38 /* NSPersistentStoreCoordinatorNHUtilitiesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSPersistentStoreCoordinatorNHUtilitiesTest.m; sourceTree = "<group>"; };
+		54DFFFB01797954B0068CF38 /* NHCoreDataControllerTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCoreDataControllerTest.m; sourceTree = "<group>"; };
+		54DFFFB21797956D0068CF38 /* NSFetchedResultsController+NHUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFetchedResultsController+NHUtilities.h"; sourceTree = "<group>"; };
+		54DFFFB31797956D0068CF38 /* NSFetchedResultsController+NHUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSFetchedResultsController+NHUtilities.m"; sourceTree = "<group>"; };
+		54DFFFB6179795860068CF38 /* NSFetchedResultsControllerNHUtilitiesTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSFetchedResultsControllerNHUtilitiesTest.m; sourceTree = "<group>"; };
 		54EAB3C3177F9D2F00F33672 /* NHBitSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHBitSet.h; sourceTree = "<group>"; };
 		54EAB3C4177F9D2F00F33672 /* NHBitSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBitSet.m; sourceTree = "<group>"; };
 		54EAB3C7177FA08500F33672 /* NHBitSetTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBitSetTest.m; sourceTree = "<group>"; };
@@ -71,6 +109,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54DFFF90179793CC0068CF38 /* CoreData.framework in Frameworks */,
 				548418E0177F611B009BA591 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +131,7 @@
 		540B7C07179512EB001CC497 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				54DFFFA7179794D20068CF38 /* CoreData */,
 				540B7C08179512EB001CC497 /* CoreFoundation */,
 				540B7C09179512EB001CC497 /* UIKit */,
 			);
@@ -135,6 +175,7 @@
 		548418DE177F611B009BA591 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				54DFFF8F179793CC0068CF38 /* CoreData.framework */,
 				548418DF177F611B009BA591 /* Foundation.framework */,
 				548418ED177F611B009BA591 /* XCTest.framework */,
 				548418F0177F611B009BA591 /* UIKit.framework */,
@@ -183,6 +224,7 @@
 		54841905177F6172009BA591 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				54DFFFA11797948E0068CF38 /* CoreData */,
 				54DFFF7F179791A90068CF38 /* Categories */,
 				54EAB3C2177F9D0300F33672 /* BitSet */,
 			);
@@ -192,6 +234,7 @@
 		5484190A177F6542009BA591 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				54DFFFA6179794BC0068CF38 /* CoreData */,
 				540B7C07179512EB001CC497 /* Categories */,
 				54EAB3C6177FA07400F33672 /* BitSet */,
 			);
@@ -201,6 +244,7 @@
 		54DFFF7F179791A90068CF38 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				54DFFF8E179793B50068CF38 /* CoreData */,
 				54DFFF80179791A90068CF38 /* CoreFoundation */,
 				54DFFF83179791A90068CF38 /* UIKit */,
 			);
@@ -221,6 +265,52 @@
 			children = (
 			);
 			path = UIKit;
+			sourceTree = "<group>";
+		};
+		54DFFF8E179793B50068CF38 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				54DFFF91179793ED0068CF38 /* NSFetchRequest+NHUtilities.h */,
+				54DFFF92179793ED0068CF38 /* NSFetchRequest+NHUtilities.m */,
+				54DFFF95179794070068CF38 /* NSManagedObjectContext+NHUtilities.h */,
+				54DFFF96179794070068CF38 /* NSManagedObjectContext+NHUtilities.m */,
+				54DFFF99179794370068CF38 /* NSManagedObject+NHUtilities.h */,
+				54DFFF9A179794370068CF38 /* NSManagedObject+NHUtilities.m */,
+				54DFFF9D179794620068CF38 /* NSPersistentStoreCoordinator+NHUtilities.h */,
+				54DFFF9E179794620068CF38 /* NSPersistentStoreCoordinator+NHUtilities.m */,
+				54DFFFB21797956D0068CF38 /* NSFetchedResultsController+NHUtilities.h */,
+				54DFFFB31797956D0068CF38 /* NSFetchedResultsController+NHUtilities.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		54DFFFA11797948E0068CF38 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				54DFFFA2179794AA0068CF38 /* NHCoreDataController.h */,
+				54DFFFA3179794AA0068CF38 /* NHCoreDataController.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		54DFFFA6179794BC0068CF38 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				54DFFFB01797954B0068CF38 /* NHCoreDataControllerTest.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		54DFFFA7179794D20068CF38 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				54DFFFA8179794F30068CF38 /* NSFestchRequestNHUtilitiesTest.m */,
+				54DFFFAA179795080068CF38 /* NSManagedObjectNHUtilitiesTest.m */,
+				54DFFFAC179795230068CF38 /* NSManagedObjectContextNHUtilitiesTest.m */,
+				54DFFFAE179795380068CF38 /* NSPersistentStoreCoordinatorNHUtilitiesTest.m */,
+				54DFFFB6179795860068CF38 /* NSFetchedResultsControllerNHUtilitiesTest.m */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 		54EAB3C2177F9D0300F33672 /* BitSet */ = {
@@ -321,8 +411,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54DFFF9B179794370068CF38 /* NSManagedObject+NHUtilities.m in Sources */,
+				54DFFFB41797956D0068CF38 /* NSFetchedResultsController+NHUtilities.m in Sources */,
+				54DFFF97179794070068CF38 /* NSManagedObjectContext+NHUtilities.m in Sources */,
+				54DFFF9F179794620068CF38 /* NSPersistentStoreCoordinator+NHUtilities.m in Sources */,
+				54DFFF93179793ED0068CF38 /* NSFetchRequest+NHUtilities.m in Sources */,
 				54EAB3C5177F9D2F00F33672 /* NHBitSet.m in Sources */,
 				54DFFF84179791A90068CF38 /* NSArray+NHUtilities.m in Sources */,
+				54DFFFA4179794AA0068CF38 /* NHCoreDataController.m in Sources */,
 				548418E7177F611B009BA591 /* NHUtilities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -332,8 +428,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				54EAB3C8177FA08500F33672 /* NHBitSetTest.m in Sources */,
+				54DFFF94179793ED0068CF38 /* NSFetchRequest+NHUtilities.m in Sources */,
+				54DFFFB7179795860068CF38 /* NSFetchedResultsControllerNHUtilitiesTest.m in Sources */,
+				54DFFFB11797954B0068CF38 /* NHCoreDataControllerTest.m in Sources */,
+				54DFFFAF179795380068CF38 /* NSPersistentStoreCoordinatorNHUtilitiesTest.m in Sources */,
+				54DFFFB51797956D0068CF38 /* NSFetchedResultsController+NHUtilities.m in Sources */,
+				54DFFFAD179795230068CF38 /* NSManagedObjectContextNHUtilitiesTest.m in Sources */,
+				54DFFFA9179794F30068CF38 /* NSFestchRequestNHUtilitiesTest.m in Sources */,
+				54DFFFA5179794AA0068CF38 /* NHCoreDataController.m in Sources */,
+				54DFFF9C179794370068CF38 /* NSManagedObject+NHUtilities.m in Sources */,
 				54DFFF85179791A90068CF38 /* NSArray+NHUtilities.m in Sources */,
 				540B7C0B17951324001CC497 /* NSArrayNHUtilitiesTest.m in Sources */,
+				54DFFFA0179794620068CF38 /* NSPersistentStoreCoordinator+NHUtilities.m in Sources */,
+				54DFFF98179794070068CF38 /* NSManagedObjectContext+NHUtilities.m in Sources */,
+				54DFFFAB179795080068CF38 /* NSManagedObjectNHUtilitiesTest.m in Sources */,
 				548418FC177F611B009BA591 /* NHUtilitiesTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
