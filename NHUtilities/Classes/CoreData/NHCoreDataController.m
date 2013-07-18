@@ -22,9 +22,11 @@
 
 @implementation NHCoreDataController
 
-+ (id)coreDataControllerWithDatabaseName: (NSString *) databaseName completion: (void(^)(NSError *)) completion {
++ (id)coreDataControllerWithDatabaseName: (NSString *) databaseName completion: (void(^)(NSError *)) completion useInMemoryStore: (BOOL) useInMemoryStore {
     NHCoreDataController * coreDataController = [[NHCoreDataController alloc] init];
     if (coreDataController) {
+        coreDataController.databaseName = databaseName;
+        coreDataController.useInMemoryStore = useInMemoryStore;
         [coreDataController openDatabaseName:databaseName completion:completion];
     }
     return self;
@@ -101,6 +103,10 @@
     NSParameterAssert(self.databaseName);
     if (self.databaseName) {
         NSURL * modelURL = [[NSBundle mainBundle] URLForResource:self.databaseName withExtension:@"momd"];
+        if (!modelURL) {
+            // @todo: find a cleaner way to do this
+            modelURL = [[NSBundle bundleForClass:NSClassFromString(@"NHCoreDataControllerTest")] URLForResource:self.databaseName withExtension:@"momd"];
+        }
         _managedObjectModel = [[NSManagedObjectModel alloc] initWithContentsOfURL:modelURL];
     }
     return _managedObjectModel;

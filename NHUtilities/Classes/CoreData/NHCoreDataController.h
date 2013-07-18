@@ -16,7 +16,7 @@
 
 @interface NHCoreDataController : NSObject
 
-+ (id)coreDataControllerWithDatabaseName: (NSString *) databaseName completion: (void(^)(NSError *)) completion;
++ (id)coreDataControllerWithDatabaseName: (NSString *) databaseName completion: (void(^)(NSError *)) completion useInMemoryStore: (BOOL) useInMemoryStore;
 - (void)openDatabaseName: (NSString *) databaseName completion: (void(^)(NSError *)) completion;
 
 @end
